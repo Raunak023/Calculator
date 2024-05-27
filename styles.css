@@ -1,0 +1,31 @@
+.ryt{
+    color: burlywood;
+    text-align: center;
+    text-shadow: 2px solid forestgreen yellow;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    background-color: brown;
+    margin-left: 500px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: gold;
+}
+
+.btn:hover {
+    background-color: #e6e6e6;
+}
+.ryt{
+    font-family: Lucida Handwriting , Apple Chancery , Brush Script;
+}
